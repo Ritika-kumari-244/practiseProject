@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.justify-content{
+    justify-content: center;
+    
+}
+.firstPart{
+    height: 25vh;
+    display: flex;
+
+}
+
+.sideLogo{
+    position: absolute;
+
+left: 2px;
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.292683px;
+
+/* Colors / Heading */
+
+color: #1E0E62;
+
+}
+.secondPart{
+    height: 55vh;
+}
+.mainMenu li{
+    width: 95px;
+}
+.mainMenu ul li{
+    
+/* height: 28px; */
+display: inline-flex;
+justify-content: space-around;
+color: rgba(91, 90, 103, 0.899);
+}
+
+.sidemenu{
+    width: 195px;
+    margin: 10px;
+    display: inline-flex;
+    justify-content: space-around;
+    /* position: absolute; */
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.sideMenu p{
+    flex: 1;
+    position: absolute;
+height: 28px;
+left: 79.5%;
+right: 16.5%;
+top: calc(50% - 28px/2 - 268.8px);
+
+/* Text / Article */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+
+/* Colors / Text */
+
+color: rgba(21, 20, 57, 0.4);
+
+}
+
+.sideMenu button{
+   width: 95px;
+    display: inline;
+    font-family: 'DM Sans';
+   
+    font-size: 18px;
+    
+background: #25DAC5;
+border-radius: 15px;
+}
+
+
+.secondPart h1{
+    position: absolute;
+height: 86px;
+left: 22.5%;
+right: 22.5%;
+top: calc(50% - 86px/2 - 118px);
+
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 86px;
+/* identical to box height, or 119% */
+
+text-align: center;
+letter-spacing: -1px;
+
+/* Colors / Heading */
+
+color: #1E0E62;
+
+
+}
+
+.secondPart p{
+    position: absolute;
+left: 29.29%;
+right: 29.14%;
+top: 44.69%;
+bottom: 41.6%;
+
+/* Heading / H5 Lead */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+/* or 145% */
+
+text-align: center;
+
+/* Colors / Text */
+
+color: rgba(21, 20, 57, 0.4);
+
+}
+
+
+
+.thirdPart{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.thirdPart button{
+
+font-size: 20px;
+
+align-items: center;
+
+color: #FFFFFF;
+
+    /* position: absolute; */
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+padding: 5px 10px;
+
+/* Action / Primary */
+
+background: #25DAC5;
+border-radius: 35px;
+
+}
+.thirdPart p{
+    display: flex;
+    justify-content: center;
+}

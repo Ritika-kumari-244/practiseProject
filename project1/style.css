@@ -1,178 +1,162 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-.justify-content{
-    justify-content: center;
-    
+body{
+    background-color:  #482BE7;
+    color: white;
+    width: 100%;
+    height: 100%;
 }
-.firstPart{
-    height: 25vh;
-    display: flex;
+.firstpart{
+    display: inline;
 
 }
 
-.sideLogo{
-    position: absolute;
 
-left: 2px;
-
-
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 31px;
-/* identical to box height */
-
+.sidelogo{
+color: white;
+float: left;
 text-align: center;
-letter-spacing: -0.292683px;
+font-size: 20px;
+font-family: DM sans-serif;
+font-weight: bold;
+left:115px;
+top: 53px;
+height:36px;
+width: 111px;
+}
 
-/* Colors / Heading */
 
-color: #1E0E62;
-
-}
-.secondPart{
-    height: 55vh;
-}
-.mainMenu li{
-    width: 95px;
-}
-.mainMenu ul li{
-    
-/* height: 28px; */
-display: inline-flex;
-justify-content: space-around;
-color: rgba(91, 90, 103, 0.899);
-}
 
 .sidemenu{
-    width: 195px;
-    margin: 10px;
-    display: inline-flex;
-    justify-content: space-around;
-    /* position: absolute; */
-    width: 100%;
-    display: inline-block;
-    justify-content: space-between;
-}
-
-.sideMenu p{
-    flex: 1;
-    position: absolute;
-height: 28px;
-left: 79.5%;
-right: 16.5%;
-top: calc(50% - 28px/2 - 268.8px);
-
-/* Text / Article */
-
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-/* identical to box height, or 156% */
-
-
-/* Colors / Text */
-
-color: rgba(21, 20, 57, 0.4);
-
-}
-
-.sideMenu button{
-   width: 95px;
-    display: inline;
-    font-family: 'DM Sans';
-   
-    font-size: 18px;
     
-background: #25DAC5;
-border-radius: 15px;
+    float: left;
+    height: 28px;
+    left: 67.5%;
+    right: 26.36%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left: 60%;
+
+}
+
+.sidemenu span{
+    margin-left: 10px;
+}
+
+.sidemenu button{
+    margin-left: 10px;
+    background-color:#9182eae2;
+    border-radius: 100px;
+    float: right;
+    width: 64px;
+    height: 26px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    padding: px;
+
+}
+
+.secondpart{
+    clear: both;
+    justify-items: center;
 }
 
 
-.secondPart h1{
-    position: absolute;
-height: 86px;
-left: 22.5%;
-right: 22.5%;
-top: calc(50% - 86px/2 - 118px);
+.secondpart h1{
 
-
-
-font-family: 'DM Sans';
+position: absolute;
+justify-content: center;
+font-family: DM sans;
 font-style: normal;
-font-weight: 700;
-font-size: 72px;
+font-weight: 800;
+font-size: 52px;
 line-height: 86px;
-/* identical to box height, or 119% */
+
 
 text-align: center;
 letter-spacing: -1px;
 
-/* Colors / Heading */
-
-color: #1E0E62;
-
-
-}
-
-.secondPart p{
-    position: absolute;
-left: 29.29%;
-right: 29.14%;
-top: 44.69%;
-bottom: 41.6%;
-
-/* Heading / H5 Lead */
-
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 32px;
-/* or 145% */
-
-text-align: center;
-
-/* Colors / Text */
-
-color: rgba(21, 20, 57, 0.4);
-
-}
-
-
-
-.thirdPart{
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-}
-.thirdPart button{
-
-font-size: 20px;
-
-align-items: center;
-
 color: #FFFFFF;
 
-    /* position: absolute; */
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-padding: 5px 10px;
+width: 770px;
+height: 172px;
+top: 82px;
+left: 315px;
+}
+
+.secondpart p{
+    position: absolute;
+    width: 607px;
+    top:283px;
+    height: 96px;
+    left: 397px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.thirdpart button1{
+    border: 1px solid white;
+    position: absolute;
+    left: 38.57%;
+    right: 42.86%;
+    top: 70.88%;
+    bottom: 21.62%;
+    border-radius: 30px;
+    text-align: center left;
+    padding: 10px;
+    font-size: 15px;
+    opacity: .5;
+}
+
+.thirdpart button{
+    position: absolute;
+left: 58.57%;
+right: 32.86%;
+top: 70.88%;
+bottom: 21.62%;
 
 /* Action / Primary */
 
 background: #25DAC5;
-border-radius: 35px;
-
+border-radius: 30px;
 }
-.thirdPart p{
-    display: flex;
-    justify-content: center;
+
+
+.thirdpart p{
+    position: absolute;
+height: 22px;
+left: 36.79%;
+right: 36.79%;
+top: calc(50% - 22px/2 + 270.4px);
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1px;
+
+letter-spacing: -0.2px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.3;
 }

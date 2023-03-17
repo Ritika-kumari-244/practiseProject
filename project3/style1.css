@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 50px;
+}
+.HeaderMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.leftmenu{
+    display: flex;
+    gap: 20px;
+}
+
+.Menu{
+    display: flex;
+gap: 20px;
+}
+.signIn{
+    display: flex;
+    gap: 20px;
+}
+
+.content{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SignUpForm{
+    display: flex;
+    flex-direction: column;
+}

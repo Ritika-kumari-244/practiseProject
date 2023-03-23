@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    top: 10795px;
+    left: -111px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.RightPart {
+    padding: 5%;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    color: #1E0E62;
+
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap:50px ;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+
+.main {
+    margin: 50px 0px 10px 0px;
+}
+
+
+.h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #1E0E62;
+
+}
+
+.text1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+
+}
+
+.buttons {
+    display: flex;
+    margin: 50px 0px 10px 0px;
+
+}
+
+.b1 {
+
+    width: 145px;
+    height: 60px;
+    margin-right: 10px;
+    background: #25DAC5;
+    border-radius: 100px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 20px;
+
+}
+
+.b2 {
+    padding: 20px;
+    width: 145px;
+    height: 60px;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1E0E62;
+}
+
+.text2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+
+}
+
+.leftPhoto {
+    width: 58%;
+    left: 815px;
+}

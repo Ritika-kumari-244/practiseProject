@@ -1,0 +1,120 @@
+@font-face {
+    font-family: DM Sans;
+    src: url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 5% 9%;
+    background-color: bisque;
+    background-image: url(.//pexels-artem-saranin-1152707.jpg);
+    opacity: 0.7;
+}
+
+.header {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightMenu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color:white;
+    font-weight: 500;
+    align-items: center;
+    font-family: 'DM Sans';
+
+}
+
+.leftMenu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: white;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    align-items: center;
+}
+
+.logo {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    color: white;
+
+}
+
+.leftMenu button {
+    width: 90px;
+    height: 30px;
+    background: #25DAC5;
+    border-radius: 100px;
+    border: 2px solid #25DAC5;
+    color: white;
+
+}
+
+.heading {
+    /* background: cornflowerblue; */
+    width: 100%;
+    align-items: center;
+    padding: 2%;
+}
+
+.heading h1 {
+    height: 10%;
+    width: 50%;
+    /* background-color: red; */
+    margin-left: 30%;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icon{
+    /* background-color: yellow; */
+    width: 100%;
+    padding: 2%;
+}
+.fa-sharp{
+    /* background-color: white; */
+    color: red;
+    margin-left: 50%;
+    font-size: 70px;
+}
+.text{
+    width: 100%;
+    /* background-color: #1E0E62; */
+    color:white;
+}
+
+.text p{
+    /* background-color: green; */
+    height: 10%;
+    width: 50%;
+    margin-left: 30%;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 3%;
+    text-align: center;
+
+}

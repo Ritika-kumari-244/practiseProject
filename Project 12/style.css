@@ -1,4 +1,116 @@
 @font-face {
-    font-family:'DM Sans', sans-serif ;
+    font-family: 'DM Sans', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+
+    position: relative;
+    width: 100%;
+    height: 930px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #2F1893;
+
+}
+
+.logo {
+
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 15.36%;
+    top: 150px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    color: #FFFFFF;
+
+}
+
+.h1 {
+
+    position: absolute;
+    left: 15.36%;
+    right: 56.07%;
+    top: 22.87%;
+    bottom: 39.89%;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.p1 {
+
+    position: absolute;
+    left: 15.29%;
+    right: 58.21%;
+    top: 52.77%;
+    bottom: 37.02%;
+
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+
+}
+
+.leftPart button {
+
+    position: absolute;
+    width: 319px;
+    height: 26px;
+    left: 15.36%;
+    top: 700px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 3px;
+    align-items: center;
+    text-align: center;
+    background: #25DAC5;
+    border-radius: 100px;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.rightPart .ph1 {
+    position: absolute;
+    left: 60.21%;
+    right: 15.36%;
+    top: 13.72%;
+    bottom: 13.58%;
+
+}
+
+.rightPart .ph2 {
+    position: absolute;
+    left: 51.07%;
+    right: 21.79%;
+    top: 9.79%;
+    bottom: 9.7%;
+
 }

@@ -1,113 +1,136 @@
 @font-face {
-    font-family: 'DM Sans', sans-serif;    ;
+    font-family: 'DM Sans', sans-serif;
+    ;
     src: url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 }
 
-.header{
+.container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+.header {
     display: flex;
     justify-content: space-between;
+    padding: 20px 50px;
+
 }
 
 
-.logo{
+.logo {
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 31px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: -0.292683px;
-
-/* Colors / Heading */
-
-color: #1E0E62;
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    color: #1E0E62;
 }
 
-.menu ul{
+
+.menu ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 50px;
 }
 
-.menu li{
+.menu ul li {
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height, or 144% */
-
-
-/* Colors / Heading */
-
-color: #1E0E62;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0E62;
 
 }
 
-.main{
+.menu ul li button {
+    background: #482BE7;
+    border-radius: 100px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main {
     display: flex;
     justify-content: space-between;
+    padding: 20px 50px;
 }
 
-.main h1{
+.main h1 {
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 58px;
-line-height: 70px;
-/* or 121% */
-
-letter-spacing: -1px;
-
-/* Colors / Heading */
-
-color: #1E0E62;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #1E0E62;
 }
 
-.main p{
+.main p {
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 32px;
-/* or 145% */
-
-
-/* Colors / Text */
-
-color: rgba(21, 20, 57, 0.4);
-
-mix-blend-mode: normal;
-opacity: 0.7;
-
-}
-
-.main .b1{
-    display: flex;
-    justify-content: space-between;
-    border-style: none;
-    background: #25DAC5;
-border-radius: 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(21, 20, 57, 0.4);
+    mix-blend-mode: normal;
+    opacity: 0.7;
 }
 
 .b1 {
+    background: #25DAC5;
+    border-radius: 100px;
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height, or 144% */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
 
-display: flex;
-align-items: center;
-text-align: center;
+.main h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1E0E62;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
-/* Colors / White */
 
-color: #FFFFFF;
+.rightPart {
+    position: relative;
+}
 
+.iPad {
+    width: 100%;
+    height: auto;
 
+}
+
+.screen {
+    position: absolute;
+    
+    left: 20px;
+    top: 16px;
+
+    border-radius: 11px;
 }

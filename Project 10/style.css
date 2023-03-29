@@ -3,12 +3,14 @@
     ;
     src: url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 
 }
+
 body {
     font-family: 'DM Sans', sans-serif;
     ;
@@ -93,90 +95,99 @@ body {
     color: #FFFFFF;
 
 }
-.main{
+
+.main {
     align-items: center;
     text-align: center;
 
 }
-.main h1{
+
+.main h1 {
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 58px;
-line-height: 70px;
-text-align: center;
-letter-spacing: -1px;
-margin-top: 40px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1px;
+    margin-top: 40px;
+    color: #FFFFFF;
 
 }
 
-.main p{
+.main p {
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 32px;
-margin-top: 30px;
-text-align: center;
-color: #FFFFFF;
-mix-blend-mode: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
 }
 
-.main button{ 
- background: #25DAC5;
-border-radius: 100px;
- font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 26px;
-padding: 10px 20px;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-margin-top: 15px;
+.main button {
+    background: #25DAC5;
+    border-radius: 100px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
 }
 
-
-.videos{
+/* 
+.videos {
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
-    
-} 
 
-.v1{
+} */
+
+.v1 {
+    display: flex;
     align-items: center;
     text-align: center;
-    margin-left: 13%;
-    display: flex;
-    
+    justify-content: space-evenly;
 }
-.img1{
+
+.img1 {
+    background-image: url("./Mask.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 170px;
     position: relative;
-    width: 100%;
-    height: auto;
+    border-radius: 10px;
 }
 
-.i1{  position: absolute;
-left: 23%;
+.videoIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-
-.v2{ 
+.v2 {
     align-items: center;
     text-align: center;
     margin-right: 13%;
     display: flex;
 }
-.img2{
+
+.img2 {
     position: relative;
     width: 100%;
     height: auto;
 }
 
-. img .i2{
+. img .i2 {
     position: absolute;
     left: 23%
 }

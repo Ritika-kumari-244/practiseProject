@@ -3,88 +3,144 @@
     src: url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: blueviolet;
     background-image: url(./Image\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: #ffff;
+    width: 100%;
+    overflow: hidden;
 }
 
 
-.header{
+.header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 30px;
 }
 
-.menu ul{
+.logo {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    color: #FFFFFF;
+}
+
+.menu ul {
     display: flex;
     list-style: none;
-    gap: 50px;
+    gap: 70px;
 }
 
-.content{
+.menu li {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+
+}
+
+.b1 button {
+    background: #25DAC5;
+    border-radius: 100px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
     display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 8px;
+    color: #FFFFFF;
 }
 
-.Left1 h1{
+.content {
+    display: flex;
+    margin: 50px;
+}
+
+.Left1 h1 {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
     line-height: 86px;
-    /* or 119% */
-    
     letter-spacing: -1px;
-    
-    /* Colors / White */
-    
     color: #FFFFFF;
-    
+    width: 500px;
+    height: auto;
+
 }
 
-.Left1 .p1{
+.Left1 .p1 {
     font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 32px;
-/* or 145% */
-
-
-/* Colors / White */
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    width: 600px;
+    height: auto;
+    margin: 20px 0px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
 }
 
-.icons{
+.icons {
     display: flex;
+
+}
+.icons .i1 i{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.icons .i1 h4{
+    font-size: 25px;
+}
+.icons .i1 p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.icons .i2 i{
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+.icons .i2 h4{
+    font-size: 25px;
+}
+
+.icons .i2 p{
+    font-size: 15px;
+    line-height: 25px;
+
 }
 
 
-
-
-
-
-
-.Right1 .react{
+.Right1 .react {
     position: relative;
     left: 115px;
     top: 30px;
 }
 
-.Right1 .macbk{
+.Right1 .macbk {
     position: absolute;
 
 
-    
+
 }

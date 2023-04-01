@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    background-image: url(./Image\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.content{
+    display: flex;
+}
+
+.Left1 h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    /* or 119% */
+    
+    letter-spacing: -1px;
+    
+    /* Colors / White */
+    
+    color: #FFFFFF;
+    
+}
+
+.Left1 .p1{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+/* or 145% */
+
+
+/* Colors / White */
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+}
+
+.icons{
+    display: flex;
+}
+
+
+
+
+
+
+
+.Right1 .react{
+    position: relative;
+    left: 115px;
+    top: 30px;
+}
+
+.Right1 .macbk{
+    position: absolute;
+
+
+    
+}

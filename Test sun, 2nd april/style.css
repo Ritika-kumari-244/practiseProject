@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(24, 59, 233, 0.941);
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.menu li {
+    font-size: 20px;
+    font-style: normal;
+
+}
+
+.b1 button {
+    background-color: rgba(24, 59, 233, 0.941);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.b1 button:hover {
+    background-color: #e70c0c;
+
+
+}
+
+.content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+
+}
+
+.left h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    line-height: 60px;
+
+}
+
+.left h1 span {
+    color: rgba(24, 59, 233, 0.941);
+}
+
+.left p {
+    color: rgb(81, 111, 140);
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.b2 {
+    padding: 10px;
+    background-color: rgba(24, 59, 233, 0.941);
+    color: #fff;
+    font-weight: 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.b3 {
+    background-color: rgb(206, 227, 247);
+    padding: 10px;
+    color: rgba(24, 59, 233, 0.941);
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.b2:hover {}
+
+.b3:hover {}
+
+.tools {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tools i {
+    color: rgba(24, 59, 233, 0.941);
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.tools h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.tools p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(120, 150, 177);
+    font-size: 20px;
+}
+
+
+
+
+.logos {
+    margin: 70px 0px;
+}
+
+.logos img {
+    width: 150px;
+    height: 50px;
+    color: grey;
+    margin: 15px;
+}
+
+.inform {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.LeftPart {
+    margin: 50px 0px;
+}
+
+.LeftPart .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+
+.LeftPart .form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(243, 236, 223);
+}
+
+
+.LeftPart .form .b4 {
+    background-color: rgb(60, 189, 148);
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.RightPart {
+    margin: 70px;
+}
+
+.RightPart h2 {
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.RightPart h2 span {
+    color: rgb(60, 189, 148);
+
+}
+
+.RightPart p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(81, 111, 140);
+    margin-bottom: 50px;
+}
+
+.checkbox ul {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 189, 148);
+
+}
+
+#DYA {
+    background-color: aquamarine;
+}
+
+.experience {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.l1 {
+    padding: 40px;
+}
+
+.l1 h2 {
+    font-size: 40px;
+}
+
+.li p {
+    color: rgb(81, 111, 140);
+    font-size: 20px;
+}
+
+.R1 {
+    width: 690px;
+}
+
+.experience span {
+    color: rgba(24, 59, 233, 0.941);
+
+}
+
+.l1 p {
+    color: rgb(81, 111, 140);
+    font-size: 18px;
+}
+
+.icn i {
+    font-size: 22px;
+    color: rgba(24, 59, 233, 0.941);
+
+}
+
+.icn h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.icn p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(120, 150, 177);
+    font-size: 20px;
+}
+
+.customer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer h2 {
+    font-size: 50px;
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.customer p {
+    margin: 0px 60px 60px 50px ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(120, 150, 177);
+}
+.box{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box .web{
+    width: 1100px;
+
+}
+.airbnb{
+    text-align: center;
+    align-items: center;
+}
+.air{
+    margin: 30px;
+    width: 120px;
+    height: 50px;
+}
+.airbnb p{
+    font-size: 18px;
+    color: black;
+}
+.airbnb .dave{
+    color: grey;
+}

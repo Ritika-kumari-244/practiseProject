@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2F1893;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.header {
+    /* margin: 30px; */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    color: #FFFFFF;
+    margin: 0px 30px;
+
+}
+
+.menu ul {
+    margin: 30px;
+
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+.menu li {
+    margin: 30px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+
+.content{
+    margin: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.main1 h2{
+    margin: 30px;
+
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 52px;
+letter-spacing: -0.4px;
+color: #FFFFFF;
+
+}
+
+.main1 p{
+    margin: 30px;
+
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+color: #FFFFFF;
+
+opacity: 0.7;
+}
+
+.main2 button{
+    margin: 30px;
+
+    background: #25DAC5;
+border-radius: 100px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+padding: 05px 10px;
+
+}
+.main2 p{
+    margin: 30px;
+
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.7;
+}
+
+.video img{
+    margin: 30px;
+/* width: 100%; */
+/* height: auto; */
+}
+
+.video .img1{
+    position: relative;
+    width: 90%;
+    height: 50vh;
+    align-items: center;
+}
+.video i{
+    position: absolute;
+    font-size: 90px;
+    left: 50%;
+    top: 50%;
+    color: red;
+}

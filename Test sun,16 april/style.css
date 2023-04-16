@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg,rgb(143, 98, 13),rgb(189, 89, 106),rgb(92, 17, 92),rgb(16, 16, 126),black);
+    align-items: center;
+    text-align: center;
+    color: white;
+    line-height: 300%;
+    font-family: sans-serif;
+}
+
+
+.input-box{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(35, 34, 34);
+    color: white;
+    border-bottom: 2px solid yellow;
+    
+
+}
+.temp{
+    font-size: 70px;
+    text-shadow: rgba(0,0,0,0.3);
+    
+}
